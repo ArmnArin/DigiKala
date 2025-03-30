@@ -1,0 +1,26 @@
+.Slider {
+  width: 100%;
+  height: 294px;
+  display: flex;
+  justify-content: center;
+  .slide {
+    width: 1240px;
+    height: 100%;
+    background-color: #d82f4e;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    .rightspace {
+      width: 200px;
+      height: 254px;
+      color: #d82f4e;
+    }
+    .swiper {
+      width: 100%;
+      height: 254px;
+    }
+
+  }
+}

@@ -1,0 +1,85 @@
+footer {
+  width: 100%;
+  height: 1158px;
+  margin-top: 50px;
+  background-color: black;
+  border-top: 1px solid rgb(240, 240, 241);
+  .footer-pt1 {
+    width: 1240px;
+    height: 965px;
+    background-color: crimson;
+    margin-top: 34px;
+    padding: 0px 20px;
+    .icon-uplink {
+      width: 1240px;
+      height: 40px;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .button {
+        width: 138.2px;
+        height: 100%;
+        .uplink {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          column-gap: 6px;
+          font-family: var(--font-family);
+          font-size: 12px;
+          font-weight: 700;
+          color: #A1A3A8;
+          border: 1px solid rgb(240, 240, 241);
+          background-color: white;
+          box-sizing: border-box;
+          border-radius: 8px;
+        }
+      }
+    }
+    .digi-tellnumbers {
+        width: 1240px;
+        height: 26px;
+        margin-top: 13px;
+        display: flex;
+        align-items: center;
+        color: #3F4064;
+        background-color: aqua;
+        font-family: var(--font-family);
+        font-size: 12px;
+        column-gap: 20px;
+        .tell-lilline {
+            width: 1px;
+            height: 9px;
+            background-color: #A1A3A8;
+        }
+    }
+    .digi-adjectives {
+        width: 1240px;
+        height: 103.9px;
+        margin: 32px 0px;
+        display: flex;
+        column-gap: 1px;
+        a {
+            width: 240.5px;
+            height: 100%;
+            text-decoration: none;
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+            row-gap: 3px;
+            justify-content: center;
+            font-family: var(--font-family);
+            font-size: 11px;
+            color: #3F4064;
+        }
+    }
+    .center {
+        width: 1240px;
+        height: 270.1px;
+        background-color: green;
+        margin-bottom: 32px;
+    }
+  }
+}

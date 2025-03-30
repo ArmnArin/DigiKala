@@ -1,0 +1,50 @@
+.favorite {
+  width: 100%;
+  height: 224.1px;
+  margin: 15px 0px;
+  .fav-container {
+    width: 1240px;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    border: 1px solid #e0e0e2;
+    border-radius: 16px;
+    margin: 0px 20px;
+    .fav-title {
+      width: 100%;
+      height: 44.1px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 7px;
+      font-size: 21px;
+      font-family: var(--font-family);
+      font-weight: 700;
+    }
+    .swiper {
+      width: 100%;
+      height: 118px;
+      background-color: rgb(240, 240, 241);
+      a{
+        width: 140px;
+        height: 118px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 110px;
+            height: 110px;
+            object-fit: cover;
+        }
+        #samsung{
+            height: 55px;
+        }
+        #xiaomi{
+            height: 40px;
+        }
+      }
+    }
+  }
+}

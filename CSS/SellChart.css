@@ -1,0 +1,124 @@
+.MostSellin,
+.LastHours {
+  width: 100%;
+  height: 404.1px;
+  margin: 13px 0px;
+  .MostSellin-container,
+  .LastHours-container {
+    width: 1240px;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    border-radius: 16px;
+    border: 1px solid #e0e0e2;
+    margin: 0px 20px;
+    .MostSellin-title-contain,
+    .LastHours-title-contain {
+      width: 1238px;
+      height: 44.1px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      .MostSellin-title,
+      .LastHours-title {
+        width: 206.3px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        font-family: var(--font-family);
+        font-size: 21px;
+        color: #0c0c0c;
+        column-gap: 4px;
+      }
+      .LastHours-title {
+        width: 255.3px !important;
+      }
+      a {
+        width: 92.5px;
+        height: 30.1px;
+        position: absolute;
+        right: 1145px;
+        bottom: 8px;
+        text-decoration: none;
+        .Sellin-a {
+          width: 100%;
+          height: 100%;
+          font-family: var(--font-family);
+          font-size: 14px;
+          border: 0px;
+          color: #19bfd3;
+        }
+      }
+    }
+    .swiper {
+      width: 100%;
+      height: 298px;
+      .MostSellin-items-container,
+      .LastHours-items-container {
+        width: 290.5px;
+        height: 100%;
+        a {
+          width: 100%;
+          height: 99.3px;
+          text-decoration: none;
+          font-family: var(--font-family);
+          .MostSellin-item,
+          .LastHours-item {
+            width: 100%;
+            height: 99.3px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            .MostSellin-img,
+            .LastHours-img {
+              width: 86px;
+              height: 86px;
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+              }
+            }
+            .MostSellin-item-number,
+            .LastHours-item-number {
+              width: 24px;
+              height: 86px;
+              font-size: 26px;
+              color: #19bfd3;
+              font-weight: 800;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+            .MostSellin-item-info,
+            .LastHours-item-info {
+              width: 167.7px;
+              height: 99.3px;
+              box-sizing: border-box;
+              border-bottom: 1px solid rgb(240, 240, 241);
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              .item-info-text {
+                width: 100%;
+                height: 26px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                font-size: 12px;
+                color: #3f4064;
+              }
+            }
+            .item-info-border {
+              border-bottom: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
