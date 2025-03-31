@@ -1,0 +1,43 @@
+.DigiCall {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #ef4056;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 1;
+    position: fixed;
+    top: 598px;
+    left: 1174px;
+    bottom: 32px;
+    right: 50px;
+}
+.DigiShop {
+    width: 129.5px;
+    height: 52.2px;
+    background-color: #029a49;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+    color: white;
+    font-family: var(--font-family);
+    font-size: 15px;
+    position: fixed;
+    top: 593.75px;
+    bottom: 32px;
+    left: 16px;
+    right: 1126.4px;
+    z-index: 1;
+    border-radius: 9999px;
+    .svg-digishop {
+        width: 28px;
+        height: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
