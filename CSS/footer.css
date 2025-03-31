@@ -2,18 +2,15 @@ footer {
   width: 100%;
   height: 1158px;
   margin-top: 50px;
-  background-color: black;
   border-top: 1px solid rgb(240, 240, 241);
   .footer-pt1 {
     width: 1240px;
     height: 965px;
-    background-color: crimson;
     margin-top: 34px;
     padding: 0px 20px;
     .icon-uplink {
       width: 1240px;
       height: 40px;
-      background-color: white;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -32,7 +29,6 @@ footer {
           font-weight: 700;
           color: #a1a3a8;
           border: 1px solid rgb(240, 240, 241);
-          background-color: white;
           box-sizing: border-box;
           border-radius: 8px;
         }
@@ -45,7 +41,6 @@ footer {
       display: flex;
       align-items: center;
       color: #3f4064;
-      background-color: aqua;
       font-family: var(--font-family);
       font-size: 12px;
       column-gap: 20px;
@@ -226,14 +221,88 @@ footer {
             width: 142px;
             height: 44px;
             margin: 8px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
           }
         }
         a {
-            width: 44px;
-            height: 44px;
-            margin-right: 16px;
-            border-radius: 4px;
+          width: 44px;
+          height: 44px;
+          margin-right: 16px;
+          border-radius: 4px;
+          background-color: white;
+        }
+      }
+    }
+    .explanation {
+      width: 1240px;
+      height: 224px;
+      border-top: 1px solid rgb(240, 240, 241);
+      display: flex;
+      align-items: center;
+      .explanation-container {
+        width: 100%;
+        height: 159px;
+        display: flex;
+        .explanation-box {
+          width: 764px;
+          height: 159px;
+          .explanation-box-text {
+            width: 724px;
+            height: 125px;
             background-color: white;
+            color: #62666d;
+            mask-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 1),
+              rgba(0, 0, 0, 0.6),
+              rgba(0, 0, 0, 0.1)
+            );
+            font-family: var(--font-family);
+            font-size: 11px;
+            font-weight: 700;
+            h1 {
+              margin-bottom: 8px;
+            }
+            p {
+              font-size: 12px;
+              line-height: 26px;
+            }
+          }
+          .explanation-span {
+            width: 92px;
+            height: 26px;
+            display: flex;
+            align-items: center;
+            color: #19bfd3;
+            margin-top: 8px;
+            font-family: var(--font-family);
+            font-size: 12px;
+            text-decoration: none;
+          }
+        }
+        .achievement-box {
+          width: 468px;
+          height: 109px;
+          display: flex;
+          justify-content: flex-end;
+          column-gap: 8px;
+          .achievement {
+            width: 109px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            border: 1px solid rgb(240, 240, 241);
+            img{
+                width: 70%;
+                height: 70%;
+                object-fit: cover;
+            }
+          }
         }
       }
     }
