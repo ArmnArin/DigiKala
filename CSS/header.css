@@ -12,23 +12,23 @@ header {
     .head-banner{
         width: 100%;
         height: 60px;
-        a{
+        a {
             width: 100%;
             height: 100%;
             img{
             width: 100%;
             height: 100%;
             object-fit: cover;
-        }
+            }
         }
     }
-    .center {
+    .head-center {
       width: 100%;
       height: 70px;
       display: flex;
       flex-flow: row wrap;
       align-items: center;
-      .logo {
+      .header-DigiLogo {
         width: 15%;
         height: inherit;
         display: flex;
@@ -43,7 +43,7 @@ header {
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        .magnifier {
+        .header-search-svg {
           display: flex;
           position: absolute;
           align-items: center;
@@ -53,7 +53,7 @@ header {
           width: 24px;
           height: 44px;
           background-color: #f0f0f1;
-          .svgmag {
+          .search-svgmag {
             opacity: 0.3;
           }
         }
@@ -82,12 +82,19 @@ header {
         column-gap: 14px;
         position: relative;
         right: 5px;
-        .notif {
+        .notification-a {
           width: 40px;
           height: 40px;
           display: flex;
           justify-content: center;
           align-items: center;
+          .login-notification-svg {
+            width: 25px;
+            height: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
         }
         .logbox {
           display: block;
@@ -111,7 +118,7 @@ header {
           height: 24px;
           background-color: #e0e0e2;
         }
-        .basket {
+        .shopping-basket-a {
           position: relative;
           right: 5px;
         }
@@ -162,6 +169,20 @@ header {
               font-family: var(--font-family);
               color: #62666d;
               column-gap: 4px;
+              .menu-first-svg{
+                width: 20px;
+                height: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+              .menu-svg {
+                width: 18px;
+                height: 18px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
             }
           }
           .first-a {
@@ -238,6 +259,14 @@ header {
               font-family: var(--font-family);
               font-weight: 700;
               color: #f57f17;
+              column-gap: 6px;
+              .menu-last-svg {
+                width: 20px;
+                height: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
             }
           }
         }
