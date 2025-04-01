@@ -99,6 +99,10 @@
           font-weight: 700;
           font-family: var(--font-family);
           color: #029a49;
+          .container-svg {
+            width: 19px;
+            height: 19px;
+          }
         }
       }
     }

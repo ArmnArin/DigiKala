@@ -22,6 +22,13 @@
             font-family: var(--font-family);
             font-size: 18px;
             column-gap: 6px;
+            .discount-title-svg {
+                width: 28px;
+                height: 28px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
         }
         .discount-items-container {
             width: 1214px;
@@ -83,6 +90,13 @@
                                 justify-content: flex-end;
                                 align-items: center;
                                 column-gap: 2px;
+                                .discount-newprice-tooman-svg {
+                                    width: 20px;
+                                    height: 20px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                }
                             }
                         }
                         .discount-item-down-info {

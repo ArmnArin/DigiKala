@@ -27,6 +27,10 @@
             align-items: center;
             color: #19bdf1;
             text-decoration: none;
+            .reading-chart-name-svg {
+                width: 18px;
+                height: 18px;
+            }
         }
     }
     .reading-chart-container{

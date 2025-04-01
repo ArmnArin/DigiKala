@@ -95,6 +95,13 @@
                     text-decoration: none;
                     color: #19BFD3;
                 }
+                .style-visitall-svg {
+                    width: 18px;
+                    height: 18px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
             }
         }
     }

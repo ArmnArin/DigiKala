@@ -21,6 +21,7 @@
       a{
         width: 132px;
         height: 160px;
+        text-decoration: none;
         .group-box{
             width: 100%;
             height: 100%;

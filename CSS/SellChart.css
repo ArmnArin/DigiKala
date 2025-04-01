@@ -32,6 +32,13 @@
         font-size: 21px;
         color: #0c0c0c;
         column-gap: 4px;
+        .Sellin-fire-svg {
+            width: 28px;
+            height: 28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
       }
       .LastHours-title {
         width: 255.3px !important;
