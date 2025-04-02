@@ -18,8 +18,6 @@
         height: 100%;
         display: flex;
         position: relative;
-        transition-duration: 300ms;
-        transform: translate3d(0px, 0px, 0px);
         .ss1 {
           background-color: #d82f4e;
           .first-slide {
